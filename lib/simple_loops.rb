@@ -1,1 +1,7 @@
-# Write your methods here
+def lopp_message_five_times(message)
+  puts message
+  puts message
+  puts message
+  puts message
+  puts message
+end
