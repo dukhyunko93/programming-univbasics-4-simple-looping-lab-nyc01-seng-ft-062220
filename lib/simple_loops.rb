@@ -10,4 +10,3 @@ def loop_message_n_times(message, number)
   number.times do puts message
   end
 end
-  
