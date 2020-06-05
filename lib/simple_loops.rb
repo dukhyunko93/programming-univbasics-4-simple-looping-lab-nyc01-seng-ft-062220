@@ -1,5 +1,3 @@
-counter = 0
-
 def loop_message_five_times(message)
   puts message
   puts message
@@ -9,8 +7,10 @@ def loop_message_five_times(message)
 end
 
 def loop_message_n_times(message, number)
-  until counter = "#{number}" do
+  number = 0
+  until number = 5 do
     puts message
-    counter += 1
+    number +=1
   end
 end
+  
